@@ -1,5 +1,6 @@
 import "./globals.css";
-import {  ExoFont, IranYekan } from "./fonts";
+import { ExoFont, IranYekan } from "./fonts";
+import Header from "@/src/components/header/Header";
 
 export const metadata = {
   title: "شرکت ستاره اول",
@@ -10,7 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${IranYekan.variable} ${ExoFont.variable} iranYekan `}>{children}</body>
+      <body className={`${IranYekan.variable} ${ExoFont.variable} iranYekan `}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
