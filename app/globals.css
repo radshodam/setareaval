@@ -1,1 +1,18 @@
+/**  fonts */
 @import "../src/styles/fontStyle.css";
+
+/** global style and reset css */
+
+:root {
+  --primary-color: #57c5d0;
+  --max-width-container: "1236px";
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
