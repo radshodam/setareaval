@@ -1,7 +1,5 @@
 import "./globals.css";
-// import { Inter } from "next/font/google";
-
-// const inter = Inter({ subsets: ["latin"] });
+import {  ExoFont, IranYekan } from "./fonts";
 
 export const metadata = {
   title: "شرکت ستاره اول",
@@ -12,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${IranYekan.variable} ${ExoFont.variable} iranYekan `}>{children}</body>
     </html>
   );
 }
