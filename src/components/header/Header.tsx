@@ -11,11 +11,15 @@ import Twitter from "@/public/images/logo/social/Twitter-icon-dark.svg";
 import Linkedin from "@/public/images/logo/social/linkedin-icon-dark.svg";
 import Instagram from "@/public/images/logo/social/Instagram-icon-dark.svg";
 import { BtnHamburger } from "./BtnHamburger";
+import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import LocaleSwitcher from "../switcherLanguage/SwitchLanguahe";
+import SwitchLocal from "../SwitchLocal/SwitchLocal";
 
 type SocialIcon = {
   id: number;
   alt: string;
-  icon: StaticImageData;
+  icon: any;
   href: string;
 };
 
@@ -58,45 +62,6 @@ const socialIconWDark: SocialIcon[] = [
     alt: "twitter",
     icon: Twitter,
     href: "https://twitter.com/setareaval_ir",
-  },
-];
-
-type HeaderData = {
-  id: number;
-  href: string;
-  title: string;
-};
-
-const dataHeader: HeaderData[] = [
-  {
-    id: 1,
-    href: "",
-    title: "فرصت های شغلی",
-  },
-  {
-    id: 2,
-    href: "",
-    title: "جوایز و برندگان",
-  },
-  {
-    id: 3,
-    href: "",
-    title: "تماس با ما",
-  },
-  {
-    id: 4,
-    href: "",
-    title: "درباره ما",
-  },
-  {
-    id: 5,
-    href: "",
-    title: "اخبار و رویدادها",
-  },
-  {
-    id: 6,
-    href: "",
-    title: "خدمات",
   },
 ];
 
@@ -229,16 +194,35 @@ const SocialInNavXs = styled.div`
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const t = useTranslations("Header");
+
+  const { locale } = useParams();
+  console.log(locale === "en");
+
   return (
     <div>
       <WrapperNav>
+          <SwitchLocal />
         <NavbarContainer>
           <nav>
-            {dataHeader.map((item) => (
-              <Link key={item.id} href={item.href}>
-                <p>{item.title}</p>
-              </Link>
-            ))}
+            <Link href={t("job.href")}>
+              <p>{t("job.title")}</p>
+            </Link>
+            <Link href={t("awards.href")}>
+              <p>{t("awards.title")}</p>
+            </Link>
+            <Link href={t("contactUs.href")}>
+              <p>{t("contactUs.title")}</p>
+            </Link>
+            <Link href={t("About.href")}>
+              <p>{t("About.title")}</p>
+            </Link>
+            <Link href={t("news.href")}>
+              <p>{t("news.title")}</p>
+            </Link>
+            <Link href={t("services.href")}>
+              <p>{t("services.title")}</p>
+            </Link>
           </nav>
 
           <SocialInNav>
@@ -265,13 +249,14 @@ function Header() {
         </NavbarContainer>
       </WrapperNav>
       {isMenuOpen && (
-        <NavBarSm className="rtl">
+        <NavBarSm className={`${locale === "en" ? "ltr" : "rtl"}`}>
           <div>
-            {dataHeader.map((item) => (
-              <Link key={item.id} href={item.href}>
-                {item.title}
-              </Link>
-            ))}
+            <Link href={t("job.href")}>{t("job.title")}</Link>
+            <Link href={t("awards.href")}>{t("awards.title")}</Link>
+            <Link href={t("contactUs.href")}>{t("contactUs.title")}</Link>
+            <Link href={t("About.href")}>{t("About.title")}</Link>
+            <Link href={t("news.href")}>{t("news.title")}</Link>
+            <Link href={t("services.href")}>{t("services.title")}</Link>
           </div>
 
           <SocialInNavXs>
