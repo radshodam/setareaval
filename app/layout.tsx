@@ -1,5 +1,5 @@
 import "./globals.css";
-import { ExoFont, IranYekan } from "./fonts";
+import { ExoFont, IranYekan } from "@/src/components/localeFont/fonts";
 import Header from "@/src/components/header/Header";
 
 export const metadata = {

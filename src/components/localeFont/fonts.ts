@@ -6,17 +6,17 @@ import { Exo } from "next/font/google";
 export const IranYekan = localFont({
   src: [
     {
-      path: "../src/fonts/iranYekan/iranyekanweblight.woff2",
+      path: "../../fonts/iranYekan/iranyekanweblight.woff2",
       weight: "200",
       style: "normal",
     },
     {
-      path: "../src/fonts/iranYekan/iranyekanwebregular.woff2",
+      path: "../../fonts/iranYekan/iranyekanwebregular.woff2",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../src/fonts/iranYekan/iranyekanwebbold.woff2",
+      path: "../../fonts/iranYekan/iranyekanwebbold.woff2",
       weight: "700",
       style: "normal",
     },
