@@ -13,7 +13,6 @@ import Instagram from "@/public/images/logo/social/Instagram-icon-dark.svg";
 import { BtnHamburger } from "./BtnHamburger";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
-import LocaleSwitcher from "../switcherLanguage/SwitchLanguahe";
 import SwitchLocal from "../SwitchLocal/SwitchLocal";
 
 type SocialIcon = {
@@ -197,7 +196,6 @@ function Header() {
   const t = useTranslations("Header");
 
   const { locale } = useParams();
-  console.log(locale === "en");
 
   return (
     <div>
