@@ -1,4 +1,5 @@
 import "./globals.css";
+import "swiper/css/bundle";
 
 import { NextIntlClientProvider, createTranslator, useLocale } from "next-intl";
 import { notFound } from "next/navigation";
