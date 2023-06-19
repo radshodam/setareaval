@@ -40,5 +40,132 @@
       "href": "",
       "title": "خدمات"
     }
-  }
+  },
+
+  "Services": {
+    "head": { "title": "خدمات ستاره اول" },
+    "data": {
+      "service1": {
+        "code": "کد دستوری #1*",
+        "description": "راحت‌ترین راه برای خرید شارژ، پرداخت قبوض، خرید بسته اینترنتی و… ویژه مشترکین همراه اول ...",
+        "link": { "href": "services#1", "title": "توضیحات بیشتر" },
+        "logo": "SetareYekCode"
+      },
+      "service2": {
+        "id": 2,
+        "code": "اپلیکیشن ستاره یک",
+        "description": "ارائه‌دهنده خدمات جامع به مشترکین تمامی اپراتورها و عرضه نمودن خدمات مانند خرید بلیط، خرید بیمه‌نامه و…",
+        "link": { "href": "services#2", "title": "توضیحات بیشتر" },
+        "logo": "SetareYek"
+      },
+      "service3": {
+        "id": 3,
+        "code": "سایت رندترین",
+        "description": "اولین برگزار کننده حرا‌ج‌های آنلاین سیمکارت های رند و صفر همراه‌اول ...",
+        "link": { "href": "services#3", "title": "توضیحات بیشتر" },
+        "logo": "Rondtarin"
+      },
+      "service4": {
+        "id": 4,
+        "code": "ستاره‌سیم",
+        "description": "درگاه فروش مستقیم سیمکارت‌های دائمی و اعتباری همراه‌اول با قیمت مناسب ...",
+        "link": { "href": "services#4", "title": "توضیحات بیشتر" },
+        "logo": "SetareSim"
+      },
+      "service5": {
+        "id": 5,
+        "code": "سرمایه گذاری",
+        "description": "ستاره اول از کسب و کارها و پروژه‌هایی که مرتبط با صنعت تلکام، صنعت پرداخت الکترونیک و تجارت الکترونیک باشد از طریق سرمایه گذاری‌های ...",
+        "link": { "href": "services#5", "title": "توضیحات بیشتر" },
+        "logo": "Sarmayegozari"
+      },
+      "service6": {
+        "id": 6,
+        "code": "فروش سازمانی",
+        "description": "اپلیکیشن ستاره یک، نرم افزاری است مختص گوشیهای هوشمند با سیستم عامل های اندروید و ios هدف از ارائه این اپلیکیشن ایجاد سهولت هرچه بیشتر در ...",
+        "link": {
+          "href": "services#6",
+          "title": "توضیحات بیشتر"
+        },
+        "logo": "Foroush"
+      },
+      "service7": {
+        "id": 7,
+        "code": "تلفن گویای 100*",
+        "description": "راهی آسان برای خرید شارژ و یا پرداخت قبض همراه اول از طریق تلفن گویا ...",
+        "link": {
+          "href": "services#7",
+          "title": "توضیحات بیشتر"
+        },
+        "logo": "Sad"
+      }
+    }
+  },
+  "Lottery": {
+    "head": { "title": "آخرین برندگان" },
+    "data": {
+      "person1": {
+        "id": 1,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "محمد زاعی",
+        "description": "برنده بی ام دابلیو ام تری",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1402/03/16" },
+        "nameCity": "چالوس",
+        "keyCity": "نام شهر: "
+      },
+      "person2": {
+        "id": 2,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "ستاره احمدیان",
+        "description": "برنده کی ام سی",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1401/10/22" },
+        "nameCity": "بوکان",
+        "keyCity": "نام شهر: "
+      },
+      "person3": {
+        "id": 3,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "زهرا رحیمی",
+        "description": "برنده 206 نقره ای",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1402/02/30" },
+        "nameCity": "بجنورد",
+        "keyCity": "نام شهر: "
+      },
+      "person4": {
+        "id": 4,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "النا زرافشانی",
+        "description": "برنده 950 میلیون",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1401/05/31" },
+        "nameCity": "بجنورد",
+        "keyCity": "نام شهر: "
+      },
+
+      "person5": {
+        "id": 5,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "خشایار خلیلی",
+        "description": "برنده رانا",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1401/05/31" },
+        "nameCity": "چالوس",
+        "keyCity": "نام شهر: "
+      },
+      "person6": {
+        "id": 6,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "محمد اسکندری",
+        "description": "برنده 50 میلیون کمک هزینه سفر به جام جهانی",
+        "DateOfLottery": { "name": "تاریخ قرعه کشی: ", "date": "1401/05/31" },
+        "nameCity": "تهران",
+        "keyCity": "نام شهر: "
+      }
+    }
+  },
+  "linkWinner": { "title": "همه ی برندگان", "href": "/all-winner" }
 }

@@ -40,5 +40,124 @@
       "href": "",
       "title": "Services"
     }
-  }
+  },
+  "Services": {
+    "head": { "title": "First Star Services" },
+    "data": {
+      "service1": {
+        "code": "Command code #1*",
+        "description": "The easiest way to buy credit, pay bills, buy internet packages, etc. exclusively for Hamrahe Aval subscribers...",
+        "link": { "href": "services#1", "title": "More details" },
+        "logo": "SetareYekCode"
+      },
+      "service2": {
+        "id": 2,
+        "code": "Star One Application",
+        "description": "Comprehensive services provider to subscribers of all operators, offering services such as ticket purchase, insurance purchase, etc.",
+        "link": { "href": "services#2", "title": "More details" },
+        "logo": "SetareYek"
+      },
+      "service3": {
+        "id": 3,
+        "code": "Randtarin Website",
+        "description": "The first online auction organizer for random and zero Hamrahe Aval SIM cards...",
+        "link": { "href": "services#3", "title": "More details" },
+        "logo": "Rondtarin"
+      },
+      "service4": {
+        "id": 4,
+        "code": "SetareSim",
+        "description": "Direct sales gateway for permanent and prepaid Hamrahe Aval SIM cards at affordable prices...",
+        "link": { "href": "services#4", "title": "More details" },
+        "logo": "SetareSim"
+      },
+      "service5": {
+        "id": 5,
+        "code": "Investment",
+        "description": "First Star invests in businesses and projects related to the telecom industry, electronic payment industry, and e-commerce through investments...",
+        "link": { "href": "services#5", "title": "More details" },
+        "logo": "Sarmayegozari"
+      },
+      "service6": {
+        "id": 6,
+        "code": "Organizational Sales",
+        "description": "Star One Application is a software dedicated to smartphones with Android and iOS operating systems. The purpose of providing ...",
+        "link": { "href": "services#6", "title": "More details" },
+        "logo": "Foroush"
+      },
+      "service7": {
+        "id": 7,
+        "code": "100* Voice Phone",
+        "description": "An easy way to buy credit or pay Hamrahe Aval bills through the voice phone...",
+        "link": { "href": "services#7", "title": "More details" },
+        "logo": "Sad"
+      }
+    }
+  },
+  "Lottery": {
+    "head": { "title": "Latest Winners" },
+    "data": {
+      "person1": {
+        "id": 1,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Mohammad Zarei",
+        "description": "Winner of BMW M3",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/06/07" },
+        "nameCity": "Chalus",
+        "keyCity": "City Name: "
+      },
+      "person2": {
+        "id": 2,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Setareh Ahmadian",
+        "description": "Winner of KIA Ceed",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/03/13" },
+        "nameCity": "Bukan",
+        "keyCity": "City Name: "
+      },
+      "person3": {
+        "id": 3,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Zahra Rahimi",
+        "description": "Winner of Peugeot 206",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/05/20" },
+        "nameCity": "Bojnurd",
+        "keyCity": "City Name: "
+      },
+      "person4": {
+        "id": 4,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Elna Zarafshani",
+        "description": "Winner of 950 million",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/01/09" },
+        "nameCity": "Bojnurd",
+        "keyCity": "City Name: "
+      },
+      "person5": {
+        "id": 5,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Khashayar Khalili",
+        "description": "Winner of Renault Rana",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/01/09" },
+        "nameCity": "Chalus",
+        "keyCity": "City Name: "
+      },
+      "person6": {
+        "id": 6,
+        "alt": "date lottery",
+        "img": "defaultProfile",
+        "name": "Mohammad Eskandari",
+        "description": "Winner of 50 million for travel expenses to the World Cup",
+        "DateOfLottery": { "name": "Lottery Date: ", "date": "2023/01/09" },
+        "nameCity": "Tehran",
+        "keyCity": "City Name: "
+      }
+    }
+  },
+  "linkWinner": { "title": "All Winner", "href": "/all-winner" }
 }

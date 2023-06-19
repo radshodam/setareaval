@@ -57,8 +57,8 @@ export default async function RootLayout({ children, params: { locale } }: Props
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
+          {children}
         </NextIntlClientProvider>
-        {children}
       </body>
     </html>
   );

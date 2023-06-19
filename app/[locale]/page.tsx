@@ -2,6 +2,8 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 import TopSlideHome from "@/src/components/slider/medium-slider/TopSlideHome";
+import CardGrid from "@/src/components/Card/CardGrid";
+import BottomSliderHome from "@/src/components/slider/smallSlider/BottomSliderHome";
 
 const Home = () => {
   const t = useTranslations("Index");
@@ -9,8 +11,8 @@ const Home = () => {
   return (
     <div>
       <TopSlideHome />
-      {/* <h1 className="text-light"> خدمات ستاره اول</h1>
-      <h1 className="exo text-light"> Setare Aval</h1> */}
+      <CardGrid />
+      <BottomSliderHome />
     </div>
   );
 };

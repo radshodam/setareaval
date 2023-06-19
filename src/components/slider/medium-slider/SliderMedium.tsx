@@ -73,42 +73,6 @@ const Slider = styled(Swiper)`
   .swiper-pagination-bullet-active {
     background-color: #57c5d0;
   }
-  .SmallSwiper {
-    padding: 45px 0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      max-width: 180px;
-    }
-
-    @media (max-width: 990px) {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .list {
-      list-style: none;
-      margin-right: 95px;
-      @media (max-width: 990px) {
-        margin-right: 1px;
-      }
-    }
-  }
-`;
-
-const HeaderText = styled.h2`
-  text-align: center;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.72;
-  letter-spacing: normal;
-  color: #56596a;
-  min-height: 60px;
-  margin-bottom: 5px;
 `;
 
 const SliderMedium: React.FC<SliderMediumProps> = ({ dataSlider }) => {
