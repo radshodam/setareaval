@@ -17,27 +17,27 @@
   },
   "Header": {
     "job": {
-      "href": "",
+      "href": "/job",
       "title": "فرصت های شغلی"
     },
     "awards": {
-      "href": "",
+      "href": "/awards",
       "title": "جوایز و برندگان"
     },
     "contactUs": {
-      "href": "",
+      "href": "/contact",
       "title": "تماس با ما"
     },
     "About": {
-      "href": "",
+      "href": "/about",
       "title": "درباره ما"
     },
     "news": {
-      "href": "",
+      "href": "/news",
       "title": "اخبار و رویدادها"
     },
     "services": {
-      "href": "",
+      "href": "/services",
       "title": "خدمات"
     }
   },
@@ -196,6 +196,7 @@
         "alt": "img news"
       }
     },
-    "linkNews": { "title": "همه ی اخبارها و رویداد ها", "href": "/all-news" }
+    "linkNews": { "title": "همه ی اخبارها و رویداد ها", "href": "/all-news" },
+    
   }
 }

@@ -17,27 +17,27 @@
   },
   "Header": {
     "job": {
-      "href": "",
+      "href": "/job",
       "title": "Job "
     },
     "awards": {
-      "href": "",
+      "href": "/awards",
       "title": "Awards and Winners"
     },
     "contactUs": {
-      "href": "",
+      "href": "/contact",
       "title": "Contact Us"
     },
     "About": {
-      "href": "",
+      "href": "/about",
       "title": "About Us"
     },
     "news": {
-      "href": "",
+      "href": "/news",
       "title": "News and Events"
     },
     "services": {
-      "href": "",
+      "href": "/services",
       "title": "Services"
     }
   },
