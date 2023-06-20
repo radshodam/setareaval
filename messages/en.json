@@ -17,27 +17,27 @@
   },
   "Header": {
     "job": {
-      "href": "",
+      "href": "/job",
       "title": "Job "
     },
     "awards": {
-      "href": "",
+      "href": "/awards",
       "title": "Awards and Winners"
     },
     "contactUs": {
-      "href": "",
+      "href": "/contact",
       "title": "Contact Us"
     },
     "About": {
-      "href": "",
+      "href": "/about",
       "title": "About Us"
     },
     "news": {
-      "href": "",
+      "href": "/news",
       "title": "News and Events"
     },
     "services": {
-      "href": "",
+      "href": "/services",
       "title": "Services"
     }
   },
@@ -189,5 +189,34 @@
       }
     },
     "linkNews": { "title": "all News and Events", "href": "/all-news" }
+  },
+  "Footer": {
+    "job": {
+      "href": "/job",
+      "title": "Job "
+    },
+    "awards": {
+      "href": "/awards",
+      "title": "Awards and Winners"
+    },
+    "contactUs": {
+      "href": "/contact",
+      "title": "Contact Us"
+    },
+    "About": {
+      "href": "/about",
+      "title": "About Us"
+    },
+    "news": {
+      "href": "/news",
+      "title": "News and Events"
+    },
+    "services": {
+      "href": "/services",
+      "title": "Services"
+    },
+    "copyRight": {
+      "title": "All intellectual and material rights of this website belong to Sherkat-e Setareh Derakhshan Hamrahe Kish."
+    }
   }
 }

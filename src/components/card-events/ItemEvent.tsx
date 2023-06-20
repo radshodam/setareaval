@@ -43,9 +43,18 @@ const CardWrapper = styled.div`
 
 const Text = styled.p`
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   padding: 6px;
   font-weight: 800;
+  text-align: center;
+
+`;
+const Text2 = styled.p`
+  color: #fff;
+  font-size: 12px;
+  padding: 6px;
+  font-weight: 400;
+  text-align: center;
 `;
 
 type Items = {
@@ -60,12 +69,8 @@ const ItemEvent = ({ firstTitle, secondTitle, href, alt, src }: Items) => {
     <CardWrapper>
       <Image alt="title" src={src} width={299} height={360} />
       <div className="previewBox">
-        <Text style={{ direction: "rtl" }}>
-          {firstTitle}
-        </Text>
-        <Text style={{ direction: "rtl" }}>
-         {secondTitle}
-        </Text>
+        <Text>{firstTitle}</Text>
+        <Text2>{secondTitle}</Text2>
       </div>
     </CardWrapper>
   );
