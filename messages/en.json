@@ -1,15 +1,11 @@
 {
-  "Index": {
-    "title": "Hello world!!",
-    "subtitle": "How is it going?",
-    "alertMessage": "Something went wrong!"
-  },
+
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+    "title": "404 not found",
+    "description": "404"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "Star Company"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",

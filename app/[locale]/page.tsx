@@ -6,8 +6,6 @@ import BottomSliderHome from "@/src/components/slider/smallSlider/BottomSliderHo
 import CardEvents from "@/src/components/card-events/CardEvents";
 
 const Home = () => {
-  const t = useTranslations("Index");
-
   return (
     <div>
       <TopSlideHome />

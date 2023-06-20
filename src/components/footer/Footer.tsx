@@ -84,7 +84,8 @@ const WrapperFooter = styled.div`
       justify-content: center;
       margin-left: 28px;
       img {
-        margin-top: 4px;
+        margin-right: 1px;
+        margin-top: 7px;
       }
     }
   }
@@ -105,34 +106,35 @@ const Footer = () => {
     <WrapperFooter>
       <div className="inner-footer">
         <div className="d-flex">
-          <nav className="">
-            <Link href={t("job.href")}>
-              <p>{t("job.title")}</p>
-            </Link>
-            <Link href={t("awards.href")}>
-              <p>{t("awards.title")}</p>
-            </Link>
-          </nav>
           <nav>
-            <Link href={t("contactUs.href")}>
-              <p>{t("contactUs.title")}</p>
-            </Link>
             <Link href={t("About.href")}>
               <p>{t("About.title")}</p>
             </Link>
+            <Link href={t("contactUs.href")}>
+              <p>{t("contactUs.title")}</p>
+            </Link>
+            <Link href={t("job.href")}>
+              <p>{t("job.title")}</p>
+            </Link>
+          </nav>
+          <nav>
             <Link href={t("news.href")}>
               <p>{t("news.title")}</p>
             </Link>
             <Link href={t("services.href")}>
               <p>{t("services.title")}</p>
             </Link>
+
+            <Link href={t("awards.href")}>
+              <p>{t("awards.title")}</p>
+            </Link>
           </nav>
         </div>
       </div>
       <div className="social">
         {socialIconWhite.map((icon) => (
-          <div className="icon">
-            <Link key={icon.id} href={icon.href}>
+          <div key={icon.id} className="icon">
+            <Link href={icon.href}>
               <Image src={icon.icon} alt={icon.alt} width={20} height={20} />
             </Link>
           </div>

@@ -1,15 +1,10 @@
 {
-  "Index": {
-    "title": "Hello world!!",
-    "subtitle": "How is it going?",
-    "alertMessage": "Something went wrong!"
-  },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+    "title": "صفحه یافت نشد",
+    "description": "ارور 404 صفحه ی مورد نظر یافت نشد"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "شرکت ستاره اول"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
