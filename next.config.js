@@ -5,6 +5,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  future: { webpack5: true },
 };
 
 const withNextIntl = require("next-intl/plugin")(
