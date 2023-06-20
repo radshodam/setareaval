@@ -135,7 +135,7 @@ const Footer = () => {
         {socialIconWhite.map((icon) => (
           <div key={icon.id} className="icon">
             <Link href={icon.href}>
-              <Image src={icon.icon} alt={icon.alt} width={20} height={20} />
+              <Image src={icon.icon} alt={icon.alt} width={20} height={20}priority />
             </Link>
           </div>
         ))}

@@ -46,9 +46,10 @@ const ItemSmallSlider = ({
             alt="default"
             width={200}
             height={200}
+            priority
           />
         ) : (
-          <Image src={DefaultProfileImage} alt="default" width={180} height={180} />
+          <Image src={DefaultProfileImage} alt="default" width={180} height={180} priority />
         )}
       </div>
     </div>

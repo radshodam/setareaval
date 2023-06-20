@@ -83,7 +83,7 @@ const CardItems = ({
     <>
       <Card className={`${locale === "en" ? "ltr " : "rtl"}`}>
         <BoxImage>
-          <Image alt={titleCode} src={imgSrc} width={76} height={76} />
+          <Image alt={titleCode} src={imgSrc} width={76} height={76} priority />
         </BoxImage>
         <BoxTextCard>
           <h3>{titleCode}</h3>

@@ -95,7 +95,7 @@ const SliderMedium: React.FC<SliderMediumProps> = ({ dataSlider }) => {
             {dataSlider?.data?.map((item) => {
               return (
                 <SwiperSlide key={`${item.id}`}>
-                  <Image src={item.img} width={1236} height={300} alt={item.alt} />
+                  <Image src={item.img} width={1236} height={300} alt={item.alt} priority />
                 </SwiperSlide>
               );
             })}

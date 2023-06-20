@@ -227,7 +227,7 @@ function Header() {
             {socialIconWhite.map((icon) => (
               <div key={icon.id}>
                 <Link href={icon.href}>
-                  <Image src={icon.icon} alt={icon.alt} width={25} height={25} />
+                  <Image src={icon.icon} alt={icon.alt} width={25} height={25}priority />
                 </Link>
               </div>
             ))}

@@ -67,7 +67,7 @@ type Items = {
 const ItemEvent = ({ firstTitle, secondTitle, href, alt, src }: Items) => {
   return (
     <CardWrapper>
-      <Image alt="title" src={src} width={299} height={360} />
+      <Image alt="title" src={src} width={299} height={360} priority />
       <div className="previewBox">
         <Text>{firstTitle}</Text>
         <Text2>{secondTitle}</Text2>
