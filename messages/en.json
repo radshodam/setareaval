@@ -159,5 +159,35 @@
       }
     }
   },
-  "linkWinner": { "title": "All Winner", "href": "/all-winner" }
+  "linkWinner": { "title": "All Winner", "href": "/all-winner" },
+  "News": {
+    "head": { "title": "News & Events" },
+    "dataNews": {
+      "majma": {
+        "firstTitle": "First Star Annual General Meeting Held / Emphasis on Going Public",
+        "secondTitle": "The First Star Annual General Meeting was held, presenting the financial report along with the actions taken in the fiscal year 2022. The First Star Company's Annual General Meeting...",
+        "href": "/news/1",
+        "alt": "news image"
+      },
+      "tandis": {
+        "firstTitle": "First Star Receives Golden Trophy of Iran's National Financial Management Award",
+        "secondTitle": "The 13th edition of Iran's Financial Management Award, held on Wednesday, 1st February, with the presence of national officials, scientific personalities, and managers of the country's economic enterprises...",
+        "href": "/news/2",
+        "alt": "news image"
+      },
+      "hotel": {
+        "firstTitle": "24/7 Hotel Reservation Support in Star One App",
+        "secondTitle": "The Star One app is a versatile and multi-purpose program that provides a platform for all daily activities individuals may encounter. It offers a comprehensive process for hotel reservations...",
+        "href": "/news/3",
+        "alt": "news image"
+      },
+      "record": {
+        "firstTitle": "First Star Sets New Record / 7 Trillion Toman Sales in the Fiscal Year 2022",
+        "secondTitle": "First Star Sets New Record / 7 Trillion Toman Sales in the Fiscal Year 2022",
+        "href": "/news/4",
+        "alt": "news image"
+      }
+    },
+    "linkNews": { "title": "all News and Events", "href": "/all-news" }
+  }
 }
