@@ -1,9 +1,8 @@
 import React from "react";
-import { useTranslations } from "next-intl";
-import TopSlideHome from "@/src/components/slider/medium-slider/TopSlideHome";
+import TopSlideHome from "@/src/components/slider/mediumSlider/TopSlideHome";
 import CardGrid from "@/src/components/Card/CardGrid";
 import BottomSliderHome from "@/src/components/slider/smallSlider/BottomSliderHome";
-import CardEvents from "@/src/components/card-events/CardEvents";
+import CardEvents from "@/src/components/cardEvents/CardEvents";
 
 const Home = () => {
   return (

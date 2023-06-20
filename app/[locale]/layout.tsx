@@ -9,12 +9,6 @@ import Header from "@/src/components/header/Header";
 import { ReactNode } from "react";
 import Footer from "@/src/components/footer/Footer";
 
-export const metadata = {
-  title: "شرکت ستاره اول",
-  description:
-    "شرکت ستاره‌اول به عنوان زیرمجموعه هلدینگ همراه‌اول با سرعت رشد بسیار بالا در حوزه ICT شناخته شده است. این شرکت به جهت ارائه خدمات اپراتوری، شروع به کار کرد.",
-};
-
 type Props = {
   children: ReactNode;
   params: { locale: string };
@@ -31,9 +25,7 @@ async function getMessages(locale: string) {
 export async function generateMetadata({ params: { locale } }: Props) {
   const messages = await getMessages(locale);
 
-  // You can use the core (non-React) APIs when you have to use next-intl
-  // outside of components. Potentially this will be simplified in the future
-  // (see https://next-intl-docs.vercel.app/docs/next-13/server-components).
+
   const t = createTranslator({ locale, messages });
 
   return {
@@ -42,10 +34,7 @@ export async function generateMetadata({ params: { locale } }: Props) {
 }
 
 export default async function RootLayout({ children, params: { locale } }: Props) {
-  // // Show a 404 error if the user requests an unknown locale
-  // if (params.locale !== locale) {
-  //   notFound();
-  // }
+
 
   const messages = await getMessages(locale);
 
