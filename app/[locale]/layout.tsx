@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { ExoFont, IranYekan } from "@/src/components/localeFont/fonts";
 import Header from "@/src/components/header/Header";
 import { ReactNode } from "react";
+import Footer from "@/src/components/footer/Footer";
 
 export const metadata = {
   title: "شرکت ستاره اول",
@@ -58,6 +59,7 @@ export default async function RootLayout({ children, params: { locale } }: Props
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

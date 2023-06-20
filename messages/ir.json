@@ -196,7 +196,35 @@
         "alt": "img news"
       }
     },
-    "linkNews": { "title": "همه ی اخبارها و رویداد ها", "href": "/all-news" },
-    
+    "linkNews": { "title": "همه ی اخبارها و رویداد ها", "href": "/all-news" }
+  },
+  "Footer": {
+    "job": {
+      "href": "/job",
+      "title": "فرصت های شغلی"
+    },
+    "awards": {
+      "href": "/awards",
+      "title": "جوایز و برندگان"
+    },
+    "contactUs": {
+      "href": "/contact",
+      "title": "تماس با ما"
+    },
+    "About": {
+      "href": "/about",
+      "title": "درباره ما"
+    },
+    "news": {
+      "href": "/news",
+      "title": "اخبار و رویدادها"
+    },
+    "services": {
+      "href": "/services",
+      "title": "خدمات"
+    },
+    "copyRight": {
+      "title": "تمامی حقوق مادی و معنوی این وبسایت متعلق به شرکت ستاره درخشان همراه کیش می‌باشد"
+    }
   }
 }
